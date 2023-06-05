@@ -9,8 +9,7 @@ import App from './app/App';
 
 import 'app/styles/index.scss';
 
-// const apiKey = process.env.REACT_APP_AUTH_HEADER || '';
-const apiKey = "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";
+const apiKey = process.env.REACT_APP_AUTH_HEADER || '';
 const client = new ApolloClient({
     uri: 'https://api.github.com/graphql',
     cache: new InMemoryCache(),
