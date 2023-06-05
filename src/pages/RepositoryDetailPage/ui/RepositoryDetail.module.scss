@@ -1,0 +1,33 @@
+.repository {
+    &__info {
+        box-shadow: 0 0 10px 1px rgba(173, 216, 230, 0.554);
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+        &-header{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            & > a{
+                text-decoration: none;
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    &__languages {
+        margin: 10px 0px;
+        & > li{
+            margin-left: 20px;
+        }
+    }
+}
+
+
+.back{
+    border: none;
+    background-color: inherit;
+    margin: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+}

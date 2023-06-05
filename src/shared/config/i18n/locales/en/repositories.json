@@ -1,0 +1,12 @@
+{
+  "errorLoadingRepos": "An error occurred while loading the repositories",
+  "refreshingThePage": "Try refreshing the page",
+  "repositories": "Repositories Page",
+  "back": "Back",
+  "stars": "Stars:",
+  "lastCommit": "Last commit:",
+  "languages": "Languages:",
+  "noDescription": "No description",
+  "noRepositorySelected": "No repository selected",
+  "notFound": "not found"
+}

@@ -1,0 +1,12 @@
+{
+  "errorLoadingRepos": "Произошла ошибка при загрузке репозиториев",
+  "refreshingThePage": "Попробуйте обновить страницу",
+  "repositories": "Страница с репозиториями",
+  "back": "Назад",
+  "stars": "Звезды:",
+  "lastCommit": "Последний коммит:",
+  "languages": "Языки:",
+  "noDescription": "Описание отсутствует",
+  "noRepositorySelected": "Не выбран репозиторий",
+  "notFound": "Не найдено"
+}

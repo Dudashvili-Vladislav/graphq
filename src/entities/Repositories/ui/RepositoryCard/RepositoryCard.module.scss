@@ -1,0 +1,28 @@
+.loading,
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.card{
+    &__title{
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__body{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__link{
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+}

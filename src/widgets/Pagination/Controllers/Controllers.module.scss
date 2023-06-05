@@ -1,0 +1,64 @@
+.controllers{
+    font-family: "RobotoRegular", serif;
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.controllers-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.controller-item{
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.controller-item:first-child{
+    border-left: none;
+}
+
+.controller-item:last-child{
+    border-right: none;
+}
+
+
+.controller-item.active{
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.prev, .next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.prev > svg > path, .next > svg > path{
+    fill: black;
+}
+
+.next{
+    // transform: rotate(-90deg);
+}
+
+.prev{
+    // transform: rotate(90deg);
+}

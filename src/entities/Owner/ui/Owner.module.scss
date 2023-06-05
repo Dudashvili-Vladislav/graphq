@@ -1,0 +1,15 @@
+.owner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 10px 1px rgba(173, 216, 230, 0.554);
+    border-radius: 5px;
+    padding: 10px;
+    &__name{
+        color: var(--primary-color);
+    }
+    &__avatar{
+        border-radius: 5px;
+        overflow: hidden;
+    }
+}
